@@ -16,25 +16,31 @@
 *			implementada em Java mas podem ser usadas outras linguagens orientadas a objeto de sua
 *			preferência. Sua versão desta classe deve ser colocada em um repositório publico do GitHub cujo o
 *			link deve ser submetido como resposta desta atividade.
-*
-*			R: a ser desenvolvido no código abaixo
-*			Fiz mas não entendi... vai demorar pra eu ter
-*			tempo de entender.
  * */
 
 
 
 public class Fila {
+	private static Fila instancia;
 	
 	private Fila() {}
-	private static Fila instancia;
 	
 	public static Fila getInstancia() {
 		if(instancia == null) {
 			instancia = new Fila();
-			
 		}
 		return instancia;
 	}
 	
+	public void ImprimeDocumento() {
+        // Code
+    }
+
+    public void RemoveDocumento() {
+        // Code
+    }
+
+    public void RemoveTodosDocumentos() {
+        // Code
+    }
 }
